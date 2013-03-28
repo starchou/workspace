@@ -1,7 +1,6 @@
-workespace
+dns.go
 ==========
 
-dns.go
 
 动态根据宽带public ip更新dnspod登记的域名
 按照 https://gist.github.com/833369 逻辑重新用Go实现了，用更少的内存开销在Raspberry Pi上跑。
@@ -11,6 +10,7 @@ dns.go
 获得domain_id可以用：
 
 curl curl -k https://dnsapi.cn/Domain.List -d "login_email=xxx&login_password=xxx" 
+
 获得record_id：
 
 curl -k https://dnsapi.cn/Record.List -d "login_email=xxx&login_password=xxx&domain_id=xxx"
