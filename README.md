@@ -1,4 +1,4 @@
-dns.go
+dns
 ==========
 
 
@@ -15,8 +15,14 @@ curl curl -k https://dnsapi.cn/Domain.List -d "login_email=xxx&login_password=xx
 
 curl -k https://dnsapi.cn/Record.List -d "login_email=xxx&login_password=xxx&domain_id=xxx"
 
-iplocation.go
+iplocation
 ==========
 
 根据python版本 改编而来
 详细原理：http://lumaqq.linuxsir.org/article/qqwry_format_detail.html
+
+
+oauth
+==========
+
+微博，QQ，豆瓣，人人 社會化登陸API接口

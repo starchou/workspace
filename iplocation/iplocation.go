@@ -1,6 +1,7 @@
 package iplocation
 
 import (
+	"fmt"
 	"os"
 	"strconv"
 	"strings"
@@ -28,7 +29,6 @@ func init() {
 
 }
 
-/*
 func main() {
 	f, _ = os.OpenFile(path, os.O_RDONLY, 666)
 	defer f.Close()
@@ -42,7 +42,6 @@ func main() {
 	fmt.Println(s)
 
 }
-*/
 func GetIpLocation(ipstr string) string {
 	ip = sting2ip(ipstr)
 	index := find(ip, 0, count-1)
