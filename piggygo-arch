@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-27T08:10:38.562Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="Qh2D4aEzv2yv7JkFjogJ" version="12.9.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2020-03-27T10:11:41.551Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="vdfBZ6lzqkXBEnk9LFVr" version="12.9.2" type="github" pages="3">
   <diagram id="jxpFwI2WcXFs-Iz_pqbu" name="srv-arch">
     <mxGraphModel dx="1407" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -342,22 +342,74 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-3" value="game" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="P5w7yc3SZW6sQ26Wm8Uc-1">
-          <mxGeometry x="180" y="10" width="110" height="620" as="geometry" />
+          <mxGeometry x="180" y="10" width="110" height="1120" as="geometry" />
         </mxCell>
         <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-24" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="P5w7yc3SZW6sQ26Wm8Uc-3">
           <mxGeometry x="50" y="200" width="10" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-51" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="P5w7yc3SZW6sQ26Wm8Uc-3">
+          <mxGeometry x="50" y="90" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-52" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="P5w7yc3SZW6sQ26Wm8Uc-3">
+          <mxGeometry x="50" y="310" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-54" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="P5w7yc3SZW6sQ26Wm8Uc-3">
+          <mxGeometry x="50" y="430" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-75" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="P5w7yc3SZW6sQ26Wm8Uc-3">
+          <mxGeometry x="50" y="550" width="10" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-78" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="P5w7yc3SZW6sQ26Wm8Uc-3">
+          <mxGeometry x="50" y="700" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-79" value="作用于自己的结算奖励" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="P5w7yc3SZW6sQ26Wm8Uc-78" parent="P5w7yc3SZW6sQ26Wm8Uc-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="680" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="55" y="690" />
+              <mxPoint x="80" y="690" />
+              <mxPoint x="80" y="710" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-96" value="如果传送结束直接退出" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.473;entryY=0.661;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="P5w7yc3SZW6sQ26Wm8Uc-3" target="P5w7yc3SZW6sQ26Wm8Uc-35">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="60" y="740" as="sourcePoint" />
+            <mxPoint x="140" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-99" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0.923;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="P5w7yc3SZW6sQ26Wm8Uc-3" target="P5w7yc3SZW6sQ26Wm8Uc-87">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="60" y="900" as="sourcePoint" />
+            <mxPoint x="140" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-5" value="boardsrv(自己棋盘)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="P5w7yc3SZW6sQ26Wm8Uc-1">
-          <mxGeometry x="370" y="10" width="70" height="620" as="geometry" />
+          <mxGeometry x="370" y="10" width="101" height="1120" as="geometry" />
         </mxCell>
         <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-21" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="P5w7yc3SZW6sQ26Wm8Uc-5">
           <mxGeometry x="30" y="90" width="10" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-15" value="user" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="P5w7yc3SZW6sQ26Wm8Uc-1">
-          <mxGeometry x="27.5" y="10" width="95" height="630" as="geometry" />
+        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-60" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="P5w7yc3SZW6sQ26Wm8Uc-5">
+          <mxGeometry x="34" y="580" width="10" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-18" value="玩家&lt;br&gt;" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;" vertex="1" parent="P5w7yc3SZW6sQ26Wm8Uc-15">
-          <mxGeometry x="32.5" y="60" width="30" height="60" as="geometry" />
+        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-100" value="&lt;span style=&quot;font-size: 11px ; background-color: rgb(255 , 255 , 255)&quot;&gt;如果传送结束直接退出&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="P5w7yc3SZW6sQ26Wm8Uc-5">
+          <mxGeometry x="-39" y="881" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-15" value="user" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="P5w7yc3SZW6sQ26Wm8Uc-1">
+          <mxGeometry x="27.5" y="10" width="95" height="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-48" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="P5w7yc3SZW6sQ26Wm8Uc-15">
+          <mxGeometry x="42.5" y="90" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-49" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="P5w7yc3SZW6sQ26Wm8Uc-15">
+          <mxGeometry x="42.5" y="200" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-50" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="P5w7yc3SZW6sQ26Wm8Uc-15">
+          <mxGeometry x="42.5" y="310" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-53" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="P5w7yc3SZW6sQ26Wm8Uc-15">
+          <mxGeometry x="42.5" y="430" width="10" height="520" as="geometry" />
         </mxCell>
         <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-19" value="返回给玩家" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="P5w7yc3SZW6sQ26Wm8Uc-1" source="P5w7yc3SZW6sQ26Wm8Uc-3">
           <mxGeometry relative="1" as="geometry">
@@ -373,9 +425,9 @@
             <mxPoint x="320" y="100" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-23" value="踩中传送事件" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="P5w7yc3SZW6sQ26Wm8Uc-21" parent="P5w7yc3SZW6sQ26Wm8Uc-1" target="P5w7yc3SZW6sQ26Wm8Uc-3">
+        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-23" value="踩中传送事件" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="P5w7yc3SZW6sQ26Wm8Uc-21" parent="P5w7yc3SZW6sQ26Wm8Uc-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="320" y="176" as="targetPoint" />
+            <mxPoint x="240" y="176" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-25" value="获取传送列表" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="P5w7yc3SZW6sQ26Wm8Uc-24" parent="P5w7yc3SZW6sQ26Wm8Uc-1" source="P5w7yc3SZW6sQ26Wm8Uc-15">
@@ -403,23 +455,161 @@
             <mxPoint x="400" y="320.0000000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-33" value="返回加入棋盘成功的数据" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.1;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="P5w7yc3SZW6sQ26Wm8Uc-37" parent="P5w7yc3SZW6sQ26Wm8Uc-1" target="P5w7yc3SZW6sQ26Wm8Uc-3">
+        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-33" value="返回加入棋盘成功的数据" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.1;exitY=0.988;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="P5w7yc3SZW6sQ26Wm8Uc-37" parent="P5w7yc3SZW6sQ26Wm8Uc-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="320" y="396" as="targetPoint" />
+            <mxPoint x="235" y="400" as="targetPoint" />
             <mxPoint x="400" y="396" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-34" value="返回加入棋盘成功的数据" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.473;exitY=0.626;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="P5w7yc3SZW6sQ26Wm8Uc-1" source="P5w7yc3SZW6sQ26Wm8Uc-3" target="P5w7yc3SZW6sQ26Wm8Uc-15">
+        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-34" value="返回加入棋盘成功的数据" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;entryX=0.521;entryY=0.348;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="P5w7yc3SZW6sQ26Wm8Uc-1" target="P5w7yc3SZW6sQ26Wm8Uc-15">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="200" y="400" as="sourcePoint" />
+            <mxPoint x="235" y="400" as="sourcePoint" />
             <mxPoint x="120" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="160" y="400" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-35" value="boardsrv(别人棋盘)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="P5w7yc3SZW6sQ26Wm8Uc-1">
-          <mxGeometry x="520" y="10" width="70" height="620" as="geometry" />
+        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-35" value="boardsrv(别人棋盘1)" style="html=1;points=[];perimeter=orthogonalPerimeter;shape=umlLifeline;participant=label;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;fillColor=#ffffff;recursiveResize=0;container=1;collapsible=0;" vertex="1" parent="P5w7yc3SZW6sQ26Wm8Uc-1">
+          <mxGeometry x="500" y="10" width="110" height="1120" as="geometry" />
         </mxCell>
         <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-37" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="P5w7yc3SZW6sQ26Wm8Uc-35">
-          <mxGeometry x="30" y="310" width="10" height="80" as="geometry" />
+          <mxGeometry x="50" y="310" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-40" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="P5w7yc3SZW6sQ26Wm8Uc-35">
+          <mxGeometry x="50" y="430" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-56" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="P5w7yc3SZW6sQ26Wm8Uc-35">
+          <mxGeometry x="50" y="550" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-73" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="P5w7yc3SZW6sQ26Wm8Uc-35">
+          <mxGeometry x="50" y="630" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-74" value="作用于棋盘主人" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;exitX=0.9;exitY=0.625;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="P5w7yc3SZW6sQ26Wm8Uc-73" parent="P5w7yc3SZW6sQ26Wm8Uc-35" source="P5w7yc3SZW6sQ26Wm8Uc-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="65" y="600" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="90" y="600" />
+              <mxPoint x="90" y="630" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-97" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="P5w7yc3SZW6sQ26Wm8Uc-35">
+          <mxGeometry x="50" y="740" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-38" value="扔骰子" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="P5w7yc3SZW6sQ26Wm8Uc-1" source="P5w7yc3SZW6sQ26Wm8Uc-15" target="P5w7yc3SZW6sQ26Wm8Uc-3">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="100" y="470" as="sourcePoint" />
+            <mxPoint x="170" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-41" value="扔骰子" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="P5w7yc3SZW6sQ26Wm8Uc-40" parent="P5w7yc3SZW6sQ26Wm8Uc-1" source="P5w7yc3SZW6sQ26Wm8Uc-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="440" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-42" value="返回棋盘数据-随机事件" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="P5w7yc3SZW6sQ26Wm8Uc-1" target="P5w7yc3SZW6sQ26Wm8Uc-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="516" as="targetPoint" />
+            <mxPoint x="550" y="520" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-46" value="随机事件" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="P5w7yc3SZW6sQ26Wm8Uc-1" source="P5w7yc3SZW6sQ26Wm8Uc-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="520" as="sourcePoint" />
+            <mxPoint x="80" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="180" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-55" value="选择事件作用者" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.2;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="P5w7yc3SZW6sQ26Wm8Uc-1" source="P5w7yc3SZW6sQ26Wm8Uc-53" target="P5w7yc3SZW6sQ26Wm8Uc-75">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="80" y="570" as="sourcePoint" />
+            <mxPoint x="220" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-61" value="作用于自己" style="html=1;verticalAlign=bottom;endArrow=block;exitX=0;exitY=0.4;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="P5w7yc3SZW6sQ26Wm8Uc-1" source="P5w7yc3SZW6sQ26Wm8Uc-56" target="P5w7yc3SZW6sQ26Wm8Uc-60">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="450" y="650" as="sourcePoint" />
+            <mxPoint x="530" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-62" value="boardsrv(别人棋盘2)" style="html=1;points=[];perimeter=orthogonalPerimeter;shape=umlLifeline;participant=label;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;fillColor=#ffffff;recursiveResize=0;container=1;collapsible=0;" vertex="1" parent="P5w7yc3SZW6sQ26Wm8Uc-1">
+          <mxGeometry x="690" y="10" width="110" height="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-65" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="P5w7yc3SZW6sQ26Wm8Uc-62">
+          <mxGeometry x="50" y="550" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-72" value="&lt;span style=&quot;font-size: 12px&quot;&gt;作用于棋盘主人(正在传送)&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.1;exitY=0.013;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="P5w7yc3SZW6sQ26Wm8Uc-1" source="P5w7yc3SZW6sQ26Wm8Uc-56" target="P5w7yc3SZW6sQ26Wm8Uc-65">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="600" y="560" as="sourcePoint" />
+            <mxPoint x="680" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-76" value="dispatch" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.1;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="P5w7yc3SZW6sQ26Wm8Uc-1" target="P5w7yc3SZW6sQ26Wm8Uc-56">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="240" y="560" as="sourcePoint" />
+            <mxPoint x="340" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-77" value="返回事件结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.1;exitY=1.033;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="P5w7yc3SZW6sQ26Wm8Uc-1" source="P5w7yc3SZW6sQ26Wm8Uc-73">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="428" y="670" as="sourcePoint" />
+            <mxPoint x="240" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-81" value="作用于棋盘主人的结算奖励" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;" edge="1" target="P5w7yc3SZW6sQ26Wm8Uc-80" parent="P5w7yc3SZW6sQ26Wm8Uc-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="691" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-82" value="game(2)" style="html=1;points=[];perimeter=orthogonalPerimeter;shape=umlLifeline;participant=label;fontFamily=Helvetica;fontSize=12;fontColor=#000000;align=center;strokeColor=#000000;fillColor=#ffffff;recursiveResize=0;container=1;collapsible=0;" vertex="1" parent="P5w7yc3SZW6sQ26Wm8Uc-1">
+          <mxGeometry x="840" y="10" width="110" height="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-80" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="P5w7yc3SZW6sQ26Wm8Uc-82">
+          <mxGeometry x="50" y="670" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-84" value="返回结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.775;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="P5w7yc3SZW6sQ26Wm8Uc-1" source="P5w7yc3SZW6sQ26Wm8Uc-78">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="740" as="sourcePoint" />
+            <mxPoint x="80" y="740" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="180" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-86" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="P5w7yc3SZW6sQ26Wm8Uc-1">
+          <mxGeometry x="230" y="790" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-87" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="P5w7yc3SZW6sQ26Wm8Uc-1">
+          <mxGeometry x="550" y="790" width="10" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-88" value="扔骰子" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="P5w7yc3SZW6sQ26Wm8Uc-87" parent="P5w7yc3SZW6sQ26Wm8Uc-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="234.5" y="790" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-89" value="返回棋盘数据" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" edge="1" parent="P5w7yc3SZW6sQ26Wm8Uc-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="870" as="targetPoint" />
+            <mxPoint x="550" y="870" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-95" value="扔骰子" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.1;entryY=-0.012;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.671;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="P5w7yc3SZW6sQ26Wm8Uc-1" source="P5w7yc3SZW6sQ26Wm8Uc-53" target="P5w7yc3SZW6sQ26Wm8Uc-86">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="90" y="790" as="sourcePoint" />
+            <mxPoint x="170" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P5w7yc3SZW6sQ26Wm8Uc-98" value="返回结果" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=-0.1;exitY=0.992;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="P5w7yc3SZW6sQ26Wm8Uc-1" source="P5w7yc3SZW6sQ26Wm8Uc-86">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="919" as="sourcePoint" />
+            <mxPoint x="79" y="918" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
